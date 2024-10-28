@@ -1,5 +1,5 @@
 .DS_Store
-dist/
+# dist/
 node_modules/
 safe-global-safe-deployments-*.tgz
 .temp-github-review.diff
