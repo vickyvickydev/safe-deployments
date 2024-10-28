@@ -1,6 +1,6 @@
 {
   "name": "@safe-global/safe-deployments",
-  "version": "1.37.13",
+  "version": "1.37.14",
   "description": "Collection of Safe singleton deployments",
   "homepage": "https://github.com/safe-global/safe-deployments/",
   "license": "MIT",
@@ -21,7 +21,9 @@
     "review:verify-deployment": "ts-node scripts/review/verifyDeployment.ts",
     "review:diff": "ts-node scripts/review/diff.ts",
     "prepack": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run build",
+    "install": "npm run build"
   },
   "repository": {
     "type": "git",
