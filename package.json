@@ -21,9 +21,7 @@
     "review:verify-deployment": "ts-node scripts/review/verifyDeployment.ts",
     "review:diff": "ts-node scripts/review/diff.ts",
     "prepack": "npm run build",
-    "test": "jest",
-    "prepare": "npm run build",
-    "install": "npm run build"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
